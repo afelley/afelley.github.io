@@ -4,10 +4,51 @@ body {
     background-color: black;
 }
 
-h1, h2, p {
+h1, h2 {
     color: white;
+}
+
+p {
+    color: white;
+    background-color: cornflowerblue;
+    width: 50%;
+    height: 100px;
+    text-align: center;
 }
 
 a {
     color: cornflowerblue;
+}
+
+.menu {
+    background-color: cornflowerblue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: auto;
+}
+
+.menu ul {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    list-style: none;
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.menu ul li a {
+    color: white;
+    background-color: cornflowerblue;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.main {
+    margin-top: 50px;
 }
